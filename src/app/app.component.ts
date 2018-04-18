@@ -45,6 +45,6 @@ export class AppComponent {
       value: '',
       name: 'submit',
       field: 'button',
-    },
+    }
   ];
 }

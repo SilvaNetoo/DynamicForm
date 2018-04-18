@@ -6,7 +6,7 @@ import { FormGroup } from '@angular/forms';
   template: `
     <div [formGroup]="group">
       <label>{{ config.label }}</label>
-      <input [type]="config.type" [attr.placeholder]="config.placeholder" [formControlName]="config.name"/>
+      <input [type]="config.type" [placeholder]="config.placeholder" [formControlName]="config.name"/>
     </div>
   `,
 })
